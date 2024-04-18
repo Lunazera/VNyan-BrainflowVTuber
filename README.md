@@ -3,7 +3,7 @@ Control parts of your VTuber model (like your ears or tail) with a BCI headset!
 
 These are VNyan setups that use [BrainflowsIntoVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat) to get incoming data from a Brain sensing headset like the Muse 2 to control your models ears or tails! There are a few different setup examples to choose from, so feel free to pick whichever suite your needs, or use as reference in building your own setups!
 
-VNyan listens for OSC VRChat Avatar as of v1.3.2, so you don't need any additional program to get the Brainflow data into VNyan. Parameters will be stored as their full addresses. Once the parameters are coming in, you can use them just like any other VNyan parameter in your graphs or pendulum chains to do whatever you wish! You can read a bit more about OSC parameters in the [VNyan Wiki.](https://github.com/Suvidriel/VNyanDoc/wiki/Parameters#osc-parameters)
+VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need any additional program to get the Brainflow data into VNyan. Parameters will be stored as their full addresses. Once the parameters are coming in, you can use them just like any other VNyan parameter in your graphs or pendulum chains to do whatever you wish! You can read a bit more about OSC parameters in the [VNyan Wiki.](https://github.com/Suvidriel/VNyanDoc/wiki/Parameters#osc-parameters)
 
 ## Requirements
 - [VNyan](https://github.com/Suvidriel/VNyanDoc) (at least v1.3.3)
