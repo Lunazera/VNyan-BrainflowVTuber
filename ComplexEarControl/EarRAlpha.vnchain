@@ -19,6 +19,16 @@
             "gameObject": "RightEarBone",
             "offset": 0.0,
             "transform": 2
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 10.0,
+            "gameObject": "RightEarBone",
+            "offset": -10.0,
+            "transform": 0
         }
     ],
     "damping": 0.4000000059604645,
