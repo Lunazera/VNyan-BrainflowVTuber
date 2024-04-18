@@ -3,7 +3,7 @@ Control parts of your VTuber model (like your ears or tail) with a BCI headset!
 
 These are VNyan setups that use [BrainflowsIntoVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat) to get incoming data from a Brain sensing headset like the Muse 2 to control your models ears or tails! There are a few different setup examples to choose from, so feel free to pick whichever suite your needs, or use as reference in building your own setups!
 
-VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need any additional program to get the Brainflow data into VNyan. Parameters will be stored as their full addresses. Once the parameters are coming in, you can use them just like any other VNyan parameter in your graphs or pendulum chains to do whatever you wish! You can read a bit more about OSC parameters in the [VNyan Wiki.](https://github.com/Suvidriel/VNyanDoc/wiki/Parameters#osc-parameters)
+VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need any additional program to get the Brainflow data into VNyan. Parameters will be stored as their full addresses. Once the parameters are coming in, you can use them just like any other VNyan parameter in your [Node Graphs](https://github.com/Suvidriel/VNyanDoc/wiki/Node-Graphs) or [Pendulum Chains](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains) to do whatever you wish! You can read a bit more about OSC parameters in the [VNyan Wiki.](https://github.com/Suvidriel/VNyanDoc/wiki/Parameters#osc-parameters)
 
 ## Requirements
 - [VNyan](https://github.com/Suvidriel/VNyanDoc) (at least v1.3.3)
@@ -19,10 +19,8 @@ VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need a
 That's it! If the connection is found and working, VNyan is now receiving all the incoming OSC parameters from Brainflows! You can check for these using the Monitor window.
 
 ### Pendulum Chain Example
-Below is an example of what one of the imported Pendulum Chain's will look like. The outlined Avatar GameObject field is where you will enter the name of the Bone you want to be animated by the chain. You can press the magnifying glass icon to the right of this field to reveal a search window to help find this. 
+Below is an example of what one of the imported [Pendulum Chain's](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains) will look like. The outlined Avatar GameObject field is where you will enter the name of the Bone you want to be animated by the chain. You can press the magnifying glass icon to the right of this field to reveal a search window to help find this. 
 ![Example screenshot of an imported pendulum chain in VNyan, with the field to enter your desired avatar's bone](https://github.com/Lunazera/VNyan-BrainflowVTuber/blob/42154f672107bac5aa983b51d4fd2e28cc7b1dc6/PendulumChainExample.png)
-
-
 
 ### Brainflow Parameters
 You can find more info about all the incoming parameters [here on the Brainflows github](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat?tab=readme-ov-file#parameter-descriptions). Parameters will be accessible in VNyan as their OSC address name. You will be able to see all the incoming parameters in the Monitor window (if you left-click on any parameter name it will be copied into your clipboard). Below are a few examples of these parameters: 
@@ -38,8 +36,6 @@ You can find more info about all the incoming parameters [here on the Brainflows
 
 ## VNyan Graphs
 This github contains a few example setups that you could use right away as is, or use as reference to build your own setups! All of these examples work by animating control bones on your model, but they could be easily adapted to animated blendshapes instead. They also all work by the [Pendulum Chain system](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains), though you can use the OSC parameters anywhere that VNyan supports parameters.
-
-
 
 ### Simple Ear Control
 
