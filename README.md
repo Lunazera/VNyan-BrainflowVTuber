@@ -1,5 +1,6 @@
 # VNyan-Brainflow VTuber Control
 Control parts of your VTuber model (like your ears or tail) with a BCI headset!
+*Huge credit to [catboymech](@catboymech) for their work getting Brainflows into Warudo (this is definitely inspired by them!) and [ChilloutCharles](https://linktr.ee/ChilloutCharles) who put together the BrainFlowsIntoVRC tech!*
 
 These are VNyan setups that use [BrainflowsIntoVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat) to get incoming data from a Brain sensing headset like the Muse 2 to control your models ears or tails! There are a few different setup examples to choose from, so feel free to pick whichever suite your needs, or use as reference in building your own setups!
 
