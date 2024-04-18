@@ -1,11 +1,11 @@
 {
-    "bones": 3,
-    "name": "TailRaise-Brainflow",
+    "bones": 6,
+    "name": "TailWag-Brainflow",
     "inputs": [
         {
             "isBlendshape": false,
-            "valueName": "bfi/neurofb/focusavgpos",
-            "multiplier": 20.0,
+            "valueName": "TailWag",
+            "multiplier": 25.0,
             "isRotation": true
         }
     ],
@@ -18,7 +18,17 @@
             "multiplier": 10.0,
             "gameObject": "Tail.001",
             "offset": 0.0,
-            "transform": 0
+            "transform": 1
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 5.0,
+            "gameObject": "Tail.001",
+            "offset": 0.0,
+            "transform": 2
         }
     ],
     "damping": 0.10000000149011612,

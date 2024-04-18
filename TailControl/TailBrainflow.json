@@ -1,0 +1,324 @@
+{
+    "graphName": "Tail Brainflow",
+    "graphIsActive": true,
+    "nodes": [
+        {
+            "id": "52c4546f-8820-4c3f-bed8-078df3160a2b",
+            "values": [
+                {
+                    "key": "timerName",
+                    "value": "TailLoop"
+                }
+            ],
+            "posX": -390.3333435058594,
+            "posY": -260.0,
+            "path": "Nodes/TimerNode",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "c4823aa6-a429-4374-b3b1-b79c426f1a58638489947014777230"
+            ],
+            "headerColor": 0
+        },
+        {
+            "id": "e1b53eaa-72b2-475e-a0e5-fbc7d7cee0a8",
+            "values": [
+                {
+                    "key": "timerName",
+                    "value": "TailLoop"
+                },
+                {
+                    "key": "seconds",
+                    "value": "0"
+                }
+            ],
+            "posX": -173.33334350585938,
+            "posY": -199.66668701171876,
+            "path": "Nodes/SetTimerNode",
+            "inputSocketIds": [
+                "2edfdd06-a883-468e-88ff-bac782d11985638489947019768118"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 0
+        },
+        {
+            "id": "9b4cf003-e7c6-4d22-ba6e-a2cba02c68f5",
+            "values": [],
+            "posX": 29.0,
+            "posY": -200.3333740234375,
+            "path": "Nodes/Ordered5Node",
+            "inputSocketIds": [
+                "1c31d744-b825-4c1a-82f4-41b99a14b68c638489947153851621"
+            ],
+            "outputSocketIds": [
+                "a3095862-a84b-4fdd-94f9-c835799b0b10638489947153851621",
+                "0bb6ff73-9716-4282-aa0d-51ba032789d1638489947153851621",
+                "01d96f98-d556-461a-bc57-ad02f2b6abab638489947153851621",
+                "fbc8accd-bfd5-41af-a0e0-088c49606f23638489947153851621",
+                "acc62500-11e4-403e-95ed-1d7165b23daa638489947153851621"
+            ],
+            "headerColor": 7
+        },
+        {
+            "id": "7b44fa81-9b69-4c8e-85ac-a0062457e769",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "TailTime"
+                },
+                {
+                    "key": "value1",
+                    "value": "[TailTime]"
+                },
+                {
+                    "key": "value2",
+                    "value": "[WagSpeed]"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 453.33331298828127,
+            "posY": -182.66668701171876,
+            "path": "Nodes/ParamOpNode",
+            "inputSocketIds": [
+                "2bc87bdf-ba5d-4654-94a7-246eee0eda27638489950727333300"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3
+        },
+        {
+            "id": "3cc3c7a7-cc37-4f13-b210-1f17e83a6e7a",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "TailTime"
+                },
+                {
+                    "key": "value1",
+                    "value": "[TailTime]"
+                },
+                {
+                    "key": "value2",
+                    "value": "360"
+                },
+                {
+                    "key": "operation",
+                    "value": "4"
+                }
+            ],
+            "posX": 668.6666870117188,
+            "posY": -188.66671752929688,
+            "path": "Nodes/ParamOpNode",
+            "inputSocketIds": [
+                "28987020-107a-4066-8a37-9dd3da74a86e638489950959914087"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3
+        },
+        {
+            "id": "0aa85e1b-734d-4a23-824a-95c706d2eadc",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "TailWag"
+                },
+                {
+                    "key": "value1",
+                    "value": "[TailTime]"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 230.6666717529297,
+            "posY": -427.66668701171877,
+            "path": "Nodes/ParamMathNode",
+            "inputSocketIds": [
+                "ae1b5d1c-83f0-47d6-8a0a-2f17ec4b7ab6638489951638133029"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3
+        },
+        {
+            "id": "e04a131f-9b2b-4c17-a5b5-2e060e67926b",
+            "values": [],
+            "posX": -391.0,
+            "posY": -130.33331298828126,
+            "path": "Nodes/AppStartNode",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "5e5920ee-9d2c-47e2-a23e-ee15fcd90dce638489952936260677"
+            ],
+            "headerColor": 7
+        },
+        {
+            "id": "ca1a20ec-7ef1-492e-80bd-a5326b57d018",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "WagSpeed"
+                },
+                {
+                    "key": "value",
+                    "value": "2"
+                }
+            ],
+            "posX": 147.33334350585938,
+            "posY": 191.33334350585938,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "3b66ee99-63f9-422c-96ea-46009c08c823638489953246350055"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6
+        },
+        {
+            "id": "863ca777-2263-4d48-b0f1-03ef61b93cf6",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "BrainflowParam"
+                },
+                {
+                    "key": "value1",
+                    "value": "[bfi/pwrbands/avg/beta]"
+                },
+                {
+                    "key": "value2",
+                    "value": "[BrainflowScale]"
+                },
+                {
+                    "key": "operation",
+                    "value": "2"
+                }
+            ],
+            "posX": 373.9999694824219,
+            "posY": 126.99998474121094,
+            "path": "Nodes/ParamOpNode",
+            "inputSocketIds": [
+                "ff6f9a5c-a41e-48e9-89de-03571df384c6638489956979824795"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5
+        },
+        {
+            "id": "45092f66-fbaa-4067-8296-4214361cdedd",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "BrainflowScale"
+                },
+                {
+                    "key": "value",
+                    "value": "12"
+                }
+            ],
+            "posX": 143.66665649414063,
+            "posY": 41.66667175292969,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "100bff0d-424e-48cd-9a83-1eadbda47043638489957780190157"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6
+        },
+        {
+            "id": "efc21b5c-6854-4f30-b846-826f15fa4313",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "WagSpeed"
+                },
+                {
+                    "key": "value1",
+                    "value": "[WagSpeed]"
+                },
+                {
+                    "key": "value2",
+                    "value": "[BrainflowParam]"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 227.00001525878907,
+            "posY": -182.0,
+            "path": "Nodes/ParamOpNode",
+            "inputSocketIds": [
+                "a60cf6f0-1565-4a01-a02f-325d92f61f06638489958427193622"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3
+        },
+        {
+            "id": "561739cd-60d6-4125-aaea-dbd3cb0ef814",
+            "values": [
+                {
+                    "key": "message",
+                    "value": "<size=20>Brainflow-Reactive Tail Wagging</size>\n\n<color=#ca6fde>by Lunazera</color>\nApril 2024\n\n▼——————————————— ▼\n\nThis drives a Tail Wagging parameter that increases based on the average Beta brainwaves from a BCI headset, using BrainFlowsIntoVRChat. Effectively your tail should wag faster as you get excited.\n\nWagSpeed controls the base speed, and BrainflowScale scales how much the measurement increases your tail wagging.\n\nTo use this, you will need to have BFiVRC running: https://github.com/ChilloutCharles/BrainFlowsIntoVRChat\nMake sure to also set your OSC Receiver Port to 9000 in your VNyan Settings (under Misc).\n\nIf you want to change which measurement is used, change the first parameter in the cyan Parameter Operation node. You can find incoming parameters from BFiVRC in the Monitor window. You will have to enter the full OSC address as shown."
+                }
+            ],
+            "posX": -155.0,
+            "posY": 115.0,
+            "path": "Nodes/MessageBoxNode",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0
+        }
+    ],
+    "connections": [
+        {
+            "id": "b3599b9b-0ac3-466d-baa4-de655c79d155",
+            "outputSocketId": "c4823aa6-a429-4374-b3b1-b79c426f1a58638489947014777230",
+            "inputSocketId": "1c31d744-b825-4c1a-82f4-41b99a14b68c638489947153851621"
+        },
+        {
+            "id": "232a1df7-17eb-44fe-83c6-d7aff7723c1e",
+            "outputSocketId": "c4823aa6-a429-4374-b3b1-b79c426f1a58638489947014777230",
+            "inputSocketId": "2edfdd06-a883-468e-88ff-bac782d11985638489947019768118"
+        },
+        {
+            "id": "36279aed-6f0f-4a71-b403-d81763130673",
+            "outputSocketId": "a3095862-a84b-4fdd-94f9-c835799b0b10638489947153851621",
+            "inputSocketId": "3b66ee99-63f9-422c-96ea-46009c08c823638489953246350055"
+        },
+        {
+            "id": "b2799f8c-a4ad-40d1-a0a1-334a4a9bb12d",
+            "outputSocketId": "a3095862-a84b-4fdd-94f9-c835799b0b10638489947153851621",
+            "inputSocketId": "100bff0d-424e-48cd-9a83-1eadbda47043638489957780190157"
+        },
+        {
+            "id": "40b11fb1-892d-4f28-aac0-5e020454c51d",
+            "outputSocketId": "5e5920ee-9d2c-47e2-a23e-ee15fcd90dce638489952936260677",
+            "inputSocketId": "2edfdd06-a883-468e-88ff-bac782d11985638489947019768118"
+        },
+        {
+            "id": "05f67f64-aaf5-4a0f-be63-83968860b124",
+            "outputSocketId": "acc62500-11e4-403e-95ed-1d7165b23daa638489947153851621",
+            "inputSocketId": "ae1b5d1c-83f0-47d6-8a0a-2f17ec4b7ab6638489951638133029"
+        },
+        {
+            "id": "77470daf-bf9b-47c9-b7e1-bd9a06dd91d6",
+            "outputSocketId": "0bb6ff73-9716-4282-aa0d-51ba032789d1638489947153851621",
+            "inputSocketId": "a60cf6f0-1565-4a01-a02f-325d92f61f06638489958427193622"
+        },
+        {
+            "id": "acf4288d-d28e-4ebc-bb59-95cc6afc040c",
+            "outputSocketId": "01d96f98-d556-461a-bc57-ad02f2b6abab638489947153851621",
+            "inputSocketId": "2bc87bdf-ba5d-4654-94a7-246eee0eda27638489950727333300"
+        },
+        {
+            "id": "ece752c4-81c8-42e2-b859-368d3a7e9926",
+            "outputSocketId": "01d96f98-d556-461a-bc57-ad02f2b6abab638489947153851621",
+            "inputSocketId": "ff6f9a5c-a41e-48e9-89de-03571df384c6638489956979824795"
+        },
+        {
+            "id": "287f4f20-6921-4187-87af-befddc43d6dd",
+            "outputSocketId": "fbc8accd-bfd5-41af-a0e0-088c49606f23638489947153851621",
+            "inputSocketId": "28987020-107a-4066-8a37-9dd3da74a86e638489950959914087"
+        }
+    ]
+}

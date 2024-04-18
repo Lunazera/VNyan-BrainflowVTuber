@@ -1,11 +1,11 @@
 {
     "bones": 4,
-    "name": "EarRAlpha-Brainflow",
+    "name": "EarLBeta-Brainflow",
     "inputs": [
         {
             "isBlendshape": false,
-            "valueName": "bfi/pwrbands/right/alpha",
-            "multiplier": 500.0,
+            "valueName": "bfi/pwrbands/left/beta",
+            "multiplier": 300.0,
             "isRotation": true
         }
     ],
@@ -15,10 +15,10 @@
             "blendshape": "",
             "negative": "",
             "param": "",
-            "multiplier": -10.0,
-            "gameObject": "RightEarBone",
-            "offset": 0.0,
-            "transform": 2
+            "multiplier": 10.0,
+            "gameObject": "LeftEarBone",
+            "offset": -5.0,
+            "transform": 1
         }
     ],
     "damping": 0.4000000059604645,

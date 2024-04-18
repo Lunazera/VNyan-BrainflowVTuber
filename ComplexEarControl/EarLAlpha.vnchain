@@ -4,8 +4,8 @@
     "inputs": [
         {
             "isBlendshape": false,
-            "valueName": "bfi/pwrbands/left/beta",
-            "multiplier": 300.0,
+            "valueName": "bfi/pwrbands/left/alpha",
+            "multiplier": 500.0,
             "isRotation": true
         }
     ],
@@ -16,9 +16,9 @@
             "negative": "",
             "param": "",
             "multiplier": 10.0,
-            "gameObject": "WolfEar_L",
-            "offset": -5.0,
-            "transform": 1
+            "gameObject": "LeftEarBone",
+            "offset": 0.0,
+            "transform": 2
         }
     ],
     "damping": 0.4000000059604645,
