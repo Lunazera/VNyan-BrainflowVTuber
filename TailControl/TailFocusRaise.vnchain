@@ -1,0 +1,28 @@
+{
+    "bones": 6,
+    "name": "Tail-Brainflow",
+    "inputs": [
+        {
+            "isBlendshape": false,
+            "valueName": "bfi/neurofb/focusavgpos",
+            "multiplier": 20.0,
+            "isRotation": true
+        }
+    ],
+    "outputs": [
+        {
+            "bone": 3,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 10.0,
+            "gameObject": "Tail.001",
+            "offset": 0.0,
+            "transform": 0
+        }
+    ],
+    "damping": 0.10000000149011612,
+    "elasticity": 0.05000000074505806,
+    "stiffness": 0.30000001192092898,
+    "inert": 0.10000000149011612
+}

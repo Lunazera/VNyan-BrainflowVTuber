@@ -1,0 +1,28 @@
+{
+    "bones": 4,
+    "name": "EarL-Brainflow",
+    "inputs": [
+        {
+            "isBlendshape": false,
+            "valueName": "bfi/neurofb/focusleft",
+            "multiplier": 40.0,
+            "isRotation": true
+        }
+    ],
+    "outputs": [
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 10.0,
+            "gameObject": "LeftEarBone",
+            "offset": 0.0,
+            "transform": 1
+        }
+    ],
+    "damping": 0.4000000059604645,
+    "elasticity": 0.03999999910593033,
+    "stiffness": 0.10000000149011612,
+    "inert": 0.5
+}

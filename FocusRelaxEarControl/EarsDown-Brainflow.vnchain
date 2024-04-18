@@ -1,0 +1,58 @@
+{
+    "bones": 4,
+    "name": "EarsDown-Brainflow",
+    "inputs": [
+        {
+            "isBlendshape": false,
+            "valueName": "bfi/neurofb/relaxavg",
+            "multiplier": 20.0,
+            "isRotation": true
+        }
+    ],
+    "outputs": [
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 15.0,
+            "gameObject": "LeftEarBone",
+            "offset": 15.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 15.0,
+            "gameObject": "RightEarBone",
+            "offset": 15.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 15.0,
+            "gameObject": "LeftEarBone",
+            "offset": 15.0,
+            "transform": 2
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": -15.0,
+            "gameObject": "RightEarBone",
+            "offset": -15.0,
+            "transform": 2
+        }
+    ],
+    "damping": 0.4000000059604645,
+    "elasticity": 0.03999999910593033,
+    "stiffness": 0.10000000149011612,
+    "inert": 0.5
+}
