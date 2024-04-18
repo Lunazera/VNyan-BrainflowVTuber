@@ -41,11 +41,11 @@ This github contains a few example setups that you could use right away as is, o
 ### [Simple Ear Control](./SimpleEarControl)
 This setup uses just one Pendulum Chain and the **Average Focus** parameter to rotate both your left and right ears around. As your focus increases, your ears will go more upright and 'alert'. Just import `SimpleEarControl.vnchain` and set your ear bones in the four Output Values to use it.
 
-### Focus-Relax Ear Control
+### [Focus-Relax Ear Control](./FocusRelaxEarControl)
 This setup uses three Pendulum Chains. Your Left and Right ears will be independently rotated outwards by the **Left Focus** and **Right Focus** parameters respectively. The idea of this is that your ears will rotate out to the side more if that side of your brain has higher focus value. The third chain uses the **Average Relax** parameter to rotate both of your ears down and outwards the higher your relaxed measurement is.
 
-### Complex Ear Control
+### [Complex Ear Control](./ComplexEarControl)
 This setup uses four Pendulum Chains to control your left and right ears by the **Alpha and Beta Power Bands**. Each ear will rotate outwards as each side's Beta power band increases, and rotate down and out as each side's Alpha power band increases.
 
-### Tail Wagging Control
+### [Tail Wagging Control](./TailControl)
 This setup uses two Pendulum Chains and a Node Graph to animate your tail by your brain waves. The **Tail Raise** chain will rotate to raise your avatar's tail as the **Focus Average Positive** parameter increases. The **TailWag** chain will animate your tail wagging back and forth and wag faster as the  **Average Beta** paramter increases. The Node Graph is a simple loop that animates a parameter between -1 to 1 repeatedly and increases it's speed as the brain sensing parameter increases.
