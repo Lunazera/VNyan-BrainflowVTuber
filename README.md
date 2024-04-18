@@ -13,7 +13,13 @@ VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need a
 ## Setup
 - Run BrainflowsIntoVRC with your brain sensing headset connected by bluetooth (you can find instructions on how to set this up in the [here](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat?tab=readme-ov-file#instructions))
 - In VNyan, make sure the OSC Receiver Port is set to 9000. You can find this under `Menu > Settings > Misc`
-- That's it! If the connection is found and working, VNyan is now receiving all the incoming OSC parameters from BFiVRC! You can check for these using the Monitor window.
+- Import the Pendulum Chain `.vnchain` files or node graph files for whichever setup you chose
+- Set the AvatarObject fields in the pendulum chains to your corresponding bones on your avatar
+
+That's it! If the connection is found and working, VNyan is now receiving all the incoming OSC parameters from Brainflows! You can check for these using the Monitor window. Below is an example of what the chain will look like in VNyan. 
+
+[[PendulumChainExample.png]]
+
 
 ### Brainflow Parameters
 You can find more info about all the incoming parameters [here on the Brainflows github](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat?tab=readme-ov-file#parameter-descriptions). Parameters will be accessible in VNyan as their OSC address name. Below are a few examples of these parameters: 
@@ -27,3 +33,15 @@ You can find more info about all the incoming parameters [here on the Brainflows
 - `BFI/PwrBands/Right/Alpha`
 - `BFI/PwrBands/Avg/Alpha`
 
+## VNyan Graphs
+This github contains a few example setups that you could use right away as is, or use as reference to build your own setups! All of these examples work by animating control bones on your model, but they could be easily adapted to animated blendshapes instead. They also all work by the [Pendulum Chain system](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains), though you can use the OSC parameters anywhere that VNyan supports parameters.
+
+
+
+### Simple Ear Control
+
+### Focus-Relax Ear Control
+
+### Complex Ear Control
+
+### Tail Wagging Control
