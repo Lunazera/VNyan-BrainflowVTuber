@@ -8,7 +8,7 @@ VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need a
 ## Requirements
 - [VNyan](https://github.com/Suvidriel/VNyanDoc) (at least v1.3.3)
 - [BrainflowsIntoVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat)
-- A compatible brain sensing headset [see list of headsets here](https://brainflow.readthedocs.io/en/stable/SupportedBoards.html)
+- A compatible brain sensing headset ([see list of headsets here](https://brainflow.readthedocs.io/en/stable/SupportedBoards.html))
 
 ## Setup
 - Run BrainflowsIntoVRC with your brain sensing headset connected by bluetooth (you can find instructions on how to set this up in the [here](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat?tab=readme-ov-file#instructions))
