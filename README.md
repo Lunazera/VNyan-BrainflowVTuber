@@ -38,7 +38,7 @@ You can find more info about all the incoming parameters [here on the Brainflows
 ## VNyan Graphs
 This github contains a few example setups that you could use right away as is, or use as reference to build your own setups! All of these examples work by animating control bones on your model, but they could be easily adapted to animated blendshapes instead. They also all work by the [Pendulum Chain system](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains), though you can use the OSC parameters anywhere that VNyan supports parameters.
 
-### Simple Ear Control
+### [Simple Ear Control](./SimpleEarControl)
 This setup uses just one Pendulum Chain and the **Average Focus** parameter to rotate both your left and right ears around. As your focus increases, your ears will go more upright and 'alert'. Just import `SimpleEarControl.vnchain` and set your ear bones in the four Output Values to use it.
 
 ### Focus-Relax Ear Control
