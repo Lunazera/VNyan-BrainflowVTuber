@@ -33,12 +33,12 @@ This setup uses four Pendulum Chains to control your left and right ears by the 
 ### [Tail Wagging Control](./TailControl)
 This setup uses two Pendulum Chains and a Node Graph to animate your tail by your brain waves. The **Tail Raise** chain will rotate to raise your avatar's tail as the **Focus Average Positive** parameter increases. The **TailWag** chain will animate your tail wagging back and forth and wag faster as the  **Average Beta** paramter increases. The Node Graph is a simple loop that animates a parameter between -1 to 1 repeatedly and increases it's speed as the brain sensing parameter increases.
 
-### Pendulum Chain Example
+## Pendulum Chain Example
 Below is an example of what one of the imported [Pendulum Chain's](https://github.com/Suvidriel/VNyanDoc/wiki/Expressions-Colliders-Pendulums-Props#pendulum-chains) will look like. The outlined Avatar GameObject field is where you will enter the name of the Bone you want to be animated by the chain. You can press the magnifying glass icon to the right of this field to reveal a search window to help find this. 
 
 ![Example screenshot of an imported pendulum chain in VNyan, with the field to enter your desired avatar's bone](https://github.com/Lunazera/VNyan-BrainflowVTuber/blob/42154f672107bac5aa983b51d4fd2e28cc7b1dc6/PendulumChainExample.png)
 
-### Brainflow Parameters
+## Brainflow Parameters
 You can find more info about all the incoming parameters [here on the Brainflows github](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat?tab=readme-ov-file#parameter-descriptions). Parameters will be accessible in VNyan as their OSC address name. You will be able to see all the incoming parameters in the Monitor window (if you left-click on any parameter name it will be copied into your clipboard). Below are a few examples of these parameters: 
 - `BFI/NeuroFB/FocusLeft`
 - `BFI/NeuroFB/FocusRight`
