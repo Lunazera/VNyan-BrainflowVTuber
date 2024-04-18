@@ -18,7 +18,7 @@ VNyan listens for OSC VRChat Avatar parameters as of v1.3.2, so you don't need a
 
 That's it! If the connection is found and working, VNyan is now receiving all the incoming OSC parameters from Brainflows! You can check for these using the Monitor window. Below is an example of what the chain will look like in VNyan. 
 
-![Example screenshot of an imported pendulum chain in VNyan, with the field to enter your desired avatar's bone]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/Lunazera/VNyan-BrainflowVTuber/blob/42154f672107bac5aa983b51d4fd2e28cc7b1dc6/PendulumChainExample.png))
+![Example screenshot of an imported pendulum chain in VNyan, with the field to enter your desired avatar's bone](https://github.com/Lunazera/VNyan-BrainflowVTuber/blob/42154f672107bac5aa983b51d4fd2e28cc7b1dc6/PendulumChainExample.png)
 
 
 
