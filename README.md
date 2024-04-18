@@ -1,4 +1,4 @@
-# VNyan-Brainflow VTuber Control
+# VNyan Brainflow VTuber Control
 Control parts of your VTuber model (like your ears or tail) with a BCI headset!
 
 *Huge credit to [catboy](https://twitter.com/catboymech) for their work getting Brainflows into Warudo (this is definitely inspired by them!) and [ChilloutCharles](https://linktr.ee/ChilloutCharles) who put together the BrainFlowsIntoVRC tech!*
