@@ -6,7 +6,7 @@ These are VNyan setups that use [BrainflowsIntoVRC](https://github.com/ChilloutC
 VNyan listens for OSC VRChat Avatar as of v1.3.2, so you don't need any additional program to get the Brainflow data into VNyan. Parameters will be stored as their full addresses. Once the parameters are coming in, you can use them just like any other VNyan parameter in your graphs or pendulum chains to do whatever you wish! You can read a bit more about OSC parameters in the [VNyan Wiki.](https://github.com/Suvidriel/VNyanDoc/wiki/Parameters#osc-parameters)
 
 ## Requirements
-- [VNyan at least v1.3.3](https://github.com/Suvidriel/VNyanDoc)
+- [VNyan](https://github.com/Suvidriel/VNyanDoc) (at least v1.3.3)
 - [BrainflowsIntoVRC](https://github.com/ChilloutCharles/BrainFlowsIntoVRChat)
 - A compatible brain sensing headset [see list of headsets here](https://brainflow.readthedocs.io/en/stable/SupportedBoards.html)
 
